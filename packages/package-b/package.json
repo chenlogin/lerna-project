@@ -1,0 +1,26 @@
+{
+  "name": "@cm/package-b",
+  "version": "0.0.2",
+  "description": "> TODO: description",
+  "author": "meng.chen <meng.chen>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/packageB.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://www.npmjs.com/"
+  },
+  "scripts": {
+    "test": "echo \"run tests from B\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "react": "^17.0.2"
+  }
+}

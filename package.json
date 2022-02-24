@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces":[
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run --stream --sort test",
+    "clean": "rm -rf build"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
